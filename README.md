@@ -16,7 +16,9 @@ This work is licensed under a
 
 ## Summary of the Project
 
-(Excuses to the original Autor) This is project to present as Capstone. Therefore I have to create an external stakeholder for which I will have to solve the problem. In this case a Journal had contacted me to prove the accuracy compliance of data published. The study tried different approaches and it is expected in the present study to reproduce the data but also to design a simple neuronetwork. Ultimately Data reliability is to be constatate through this approach.
+(Excuses to the original Autor) 
+* 1. An educational institution has asked me to revisit this Study and the data it contains in order for it to be included on a university curriculum for second-year engineering students.
+* 2. This is project to present as Capstone. Therefore I have to create an external stakeholder for which I will have to solve the problem. In this case a Journal had contacted me to prove the accuracy compliance of data published. The study tried different approaches and it is expected in the present study to reproduce the data but also to design a simple neuronetwork. Ultimately Data reliability is to be constatate through this approach.
 
 ### Abreviations
 |Abreviation| Meaning|
