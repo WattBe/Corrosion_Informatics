@@ -52,3 +52,23 @@ inclination and velocity
 ## Dataset
 The specimens, thus printed, postprocessed, and categorized, were tested for general
 corrosion using an electrochemical method.
+
+
+Environment
+Before you can install xgboost in your new environment you need to install cmake. If you haven't done it yet, run the following command:
+
+brew install cmake
+There are two ways to create and activate a new virtual environment for this repo. You can either use the requirements file and run the following commands...
+
+pyenv local 3.9.8
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+... or you can make use of the Makefile we included in this repo. This makefile stores a bunch of bash commands which will be executed when running the following command in the terminal (make sure you are in the correct folder):
+
+make setup
+After creating the environment using the makefile you still need to activate it running the source command!
+
+Note: If there are errors during environment setup, try removing the versions from the failing packages in the requirements file.
+
