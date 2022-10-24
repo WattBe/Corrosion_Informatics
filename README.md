@@ -24,4 +24,4 @@ Additively Manufactured Inconel 718 (Data 2021, 6, 80. [Original Article](https:
 
 ## Summary of the Project
 
-Accuracy compliance of data published. This repo has as aim to reproduce and improve the approach taken on the beforeahead mention work. The study tried different approaches and it is expected in the present study to reproduce the data but also to design a simple neuronetwork. Ultimately Data reliability is to be constatate through this approach.
+(Excuses to the original Autor) This is project to present as Capstone. Therefore I have to create an external stakeholder for which I will have to solve the problem. In this case a Journal had contacted me to prove the accuracy compliance of data published. The study tried different approaches and it is expected in the present study to reproduce the data but also to design a simple neuronetwork. Ultimately Data reliability is to be constatate through this approach.
