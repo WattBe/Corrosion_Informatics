@@ -54,7 +54,7 @@ The specimens, thus printed, postprocessed, and categorized, were tested for gen
 corrosion using an electrochemical method.
 
 
-Environment
+## Environment for MAC users
 Before you can install xgboost in your new environment you need to install cmake. If you haven't done it yet, run the following command:
 
 brew install cmake
