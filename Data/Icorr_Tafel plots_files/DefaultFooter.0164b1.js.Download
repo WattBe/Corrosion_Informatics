@@ -1,0 +1,29 @@
+(window.wjp=window.wjp||[]).push([[258],{2370:function(e,t,r){"use strict";r.d(t,"a",(function(){return n}));const n={DEFAULT_FOOTER:"DEFAULT_FOOTER",GLOBAL_FOOTER_LOGGED_OUT:"GLOBAL_FOOTER_LOGGED_OUT",SIDEBAR_FOOTER:"SIDEBAR_FOOTER"}},3880:function(e,t,r){"use strict";r.d(t,"a",(function(){return m}));var n=r(2),l=r(8),a=r.n(l),i=r(1),c=IMAGES_STATIC_URL+"m/47295114274944/images/mobileapp/playstore.svg",s=(r(3881),r(0));const o=new a.a("android-app-download-link"),d=({href:e,size:t})=>Object(s.jsx)("span",Object(n.a)(Object(n.a)({},o()),{},{children:Object(s.jsx)(i.Link,{href:e,theme:"bare","aria-label":"Download RG android app",className:"gtm-mobile-app-promo-cta",children:Object(s.jsx)("img",Object(n.a)({src:c,alt:"Get it on Google Play"},o("image","image-size-"+t)))})}));d.defaultProps={size:"m"};var j=d,p=r(5),b=r(663),O=r(14),x=r(12);let h;var m=Object(p.withQuery)(Object(p.gql)(h||(h=(e=>e)`query AndroidAppDownload($context: AndroidAppDownloadContextEnum!) {
+  viewer {
+    urlGenerator {
+      androidDownloadUrl
+      __typename
+    }
+    experiments {
+      mobileApp {
+        androidDownload(context: $context) {
+          goal
+          __typename
+        }
+        __typename
+      }
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
+`)),{mapDataToProps:({viewer:e})=>{var t,r,n,l;return{androidDownloadUrl:Object(x.a)(Object(b.a)(null==e||null===(t=e.urlGenerator)||void 0===t?void 0:t.androidDownloadUrl,!0),Object(O.b)(null==e||null===(r=e.experiments)||void 0===r||null===(n=r.mobileApp)||void 0===n||null===(l=n.androidDownload)||void 0===l?void 0:l.goal))}}})(({androidDownloadUrl:e,size:t})=>Object(s.jsx)(j,{href:e,size:t}))},3881:function(e,t,r){},6285:function(e,t,r){"use strict";r.r(t);var n=r(1),l=r(5),a=r(835),i=r(605),c=r(7),s=r(6),o=r(2370),d=r(3880),j=r(751),p=r(0);var b=()=>Object(p.jsx)("span",{style:{padding:"0 5px"},children:" | "});let O;const x={whiteSpace:"nowrap"},h={paddingTop:"4px"},m={marginLeft:"5px"};var u=Object(c.a)(Object(s.b)(),Object(l.withQuery)(Object(l.gql)(O||(O=(e=>e)`query DefaultFooter {
+  viewer {
+    isAndroidAppDownloadLinkEnabled: isFeatureFlagActive(featureName: "androidAppDownloadLink")
+    ...AndroidAppDownload @embed(context: DEFAULT_FOOTER)
+    __typename
+  }
+  __typename
+}
+`)),{mapDataToProps:({viewer:e})=>({isAndroidAppDownloadLinkEnabled:null==e?void 0:e.isAndroidAppDownloadLinkEnabled})}),s.m)(({isMobile:e,aboutUsUrl:t,ctaUrl:r,faqUrl:l,marketingSolutionsUrl:c,newsUrl:s,recruiterLandingPageUrl:O,year:u,isRecruiter:w,isAndroidAppDownloadLinkEnabled:f})=>Object(p.jsx)(i.a,{children:Object(p.jsx)("div",{className:"default-footer",role:"contentinfo","aria-label":"Footer",children:Object(p.jsx)("div",{id:"footer",children:Object(p.jsxs)(n.Flex,{direction:e?"column":"row-reverse",alignItems:e?"flex-start":"center",justifyContent:e?"center":"space-between",children:[Object(p.jsx)(n.Flex.Item,{children:Object(p.jsx)("span",{className:"footer-right",children:Object(p.jsxs)(n.Flex,{wrap:"wrap",gutter:"none",children:[Object(p.jsxs)(n.Flex.Item,{style:h,children:[Object(p.jsx)("a",{href:t,style:x,children:"About us"}),Object(p.jsx)(a.a,{})]}),Object(p.jsxs)(n.Flex.Item,{style:h,children:[Object(p.jsx)("a",{href:s,target:"_blank",rel:"noopener",children:"News"}),Object(p.jsx)(a.a,{})]}),Object(p.jsxs)(n.Flex.Item,{style:h,children:[Object(p.jsx)("a",{href:"careers",children:"Careers"}),Object(p.jsx)(a.a,{})]}),Object(p.jsxs)(n.Flex.Item,{style:h,children:[Object(p.jsx)("a",{href:l,target:"_blank",rel:"noopener",style:x,children:"Help Center"}),Object(p.jsx)(a.a,{})]}),Object(p.jsx)(n.Flex.Item,{style:h,children:Object(p.jsxs)("span",{children:[Object(p.jsx)("a",{href:c,rel:"noopener",children:"Advertising"}),Object(p.jsx)(a.a,{}),Object(p.jsx)("a",{href:O,children:"Recruiting"}),Object(p.jsx)(b,{})]})}),Object(p.jsxs)(n.Flex.Item,{style:h,children:[Object(p.jsx)("a",{href:"terms-of-service",children:"Terms"}),Object(p.jsx)(a.a,{})]}),Object(p.jsxs)(n.Flex.Item,{style:h,children:[Object(p.jsx)("a",{href:"privacy-policy",children:"Privacy"}),Object(p.jsx)(a.a,{})]}),Object(p.jsxs)(n.Flex.Item,{style:h,children:[Object(p.jsx)("a",{href:"ip-policy",children:"Copyright"}),Object(p.jsx)(a.a,{})]}),Object(p.jsx)(n.Flex.Item,{style:h,children:Object(p.jsx)("a",{href:"imprint",children:"Imprint"})}),w?null:Object(p.jsxs)(n.Flex.Item,{children:[Object(p.jsx)(b,{}),Object(p.jsx)("span",{children:Object(p.jsx)(j.a,{ctaUrl:r})})]}),!w&&f?Object(p.jsx)(n.Flex.Item,{style:m,children:Object(p.jsx)("span",{children:Object(p.jsx)(d.a,{context:o.a.DEFAULT_FOOTER,size:"s"})})}):null]})})}),Object(p.jsx)(n.Flex.Item,{children:Object(p.jsx)(n.Flex,{wrap:"wrap",gutter:"none",children:Object(p.jsx)(n.Flex.Item,{children:Object(p.jsxs)("span",{className:"footer-left",children:["© 2008-",u," ResearchGate GmbH. All rights reserved."]})})})})]})})})})),w=r(21);window["renderReact_application/DefaultFooter"]=function(e){Object(w.renderForClient)(u,e)}},751:function(e,t,r){"use strict";var n=r(1),l=r(0);const a=({ctaUrl:e,height:t,width:r})=>Object(l.jsx)("span",{style:{background:"none"},children:Object(l.jsx)(n.Link,{href:e,theme:"bare",children:Object(l.jsx)("img",{src:"https://i1.rgstatic.net/images/nativeApp/app_store_light_logo.svg",alt:"App Store",style:{height:t+"px",width:r+"px"}})})});a.defaultProps={height:24,width:74},t.a=a},835:function(e,t,r){"use strict";r.d(t,"a",(function(){return l}));var n=r(0);var l=()=>Object(n.jsx)("span",{children:" · "})}},[[6285,1,2,0,3]]]);
